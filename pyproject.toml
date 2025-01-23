@@ -1,0 +1,15 @@
+[project]
+name = "deepsparse-llama"
+version = "0.1.0"
+description = "A small fast api project serving a deepsparse pipeline of llama2 7b"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["deepsparse>=1.8.0", "fastapi>=0.115.7", "pydantic>=2.10.5"]
+
+[tool.setuptools]
+py-modules = []
+
+[dependency-groups]
+dev = [
+    "ruff>=0.9.3",
+]
