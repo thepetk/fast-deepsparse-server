@@ -39,5 +39,5 @@ fastapi run main.py --proxy-headers --port <port-number>
 The project offers a `Containerfile` so we can build an image for the deepsparse fast api server. To build the image run:
 
 ```bash
-[docker/podman] build -f Containerfile -t <your-image-name>:<tag> .
+<your-container-management-tool> build -f Containerfile -t <your-image-name>:<tag> .
 ```
